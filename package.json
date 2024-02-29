@@ -1,15 +1,22 @@
 {
   "name": "visual-hooks",
-  "version": "1.1.1",
-  "description": "A package",
+  "version": "0.0.1",
+  "description": "Visual Hooks is a Next.js library for creating dialogs, mobile sidebar or other things.",
   "main": "dist/index.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tahasintonmoy2/visual-hooks.git"
+  },
+  "homepage": "https://github.com/divasharma3",
+  "bugs": "https://github.com/tahasintonmoy2/visual-hooks.git/issues",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
     "test": "test"
   },
   "keywords": [
+    "visual-hooks",
     "library",
     "react",
     "next"
@@ -23,10 +30,10 @@
     "@types/react-dom": "^18",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rollup": "^4.12.0",
     "tslib": "^2.6.2"
   },
   "dependencies": {
-    "rollup": "^4.12.0",
     "zustand": "^4.5.1"
   }
 }
