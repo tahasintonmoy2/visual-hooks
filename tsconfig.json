@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ESNext",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "jsx": "react",
+    "moduleResolution": "Bundler",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationDir": "./dist",
+    "strict": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
